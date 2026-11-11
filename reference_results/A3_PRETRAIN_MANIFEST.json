@@ -1,0 +1,41 @@
+{
+  "protocol_sha256": "b95fb38ad18b8bab588d1594d4ac3623af10a1f396ad4b0973ea42ada7772c4f",
+  "script_sha256": "85948a2583d95861c91541c45683a25a25626aebc8506d82a5d24eaa0a6e6bd9",
+  "dataset_sha256": "fa3c891163c27880296c240b77c1d23d2ce41be36858ca233f774be9e86f1854",
+  "author_model_sha256": "3fe4e391f8a32947a18967a0a79d9b606f77b0c4869ffed4ce025b85cd72665c",
+  "author_train_sha256": "6e623b800cd8205c0ea7bbf9f0c1a864b6c0f68e583660e572425201d2b417c2",
+  "model_seeds": [
+    443,
+    444,
+    445
+  ],
+  "same_class_train_seen_preflight": {
+    "0": {
+      "seen_same_class_recordings": 201,
+      "not_seen_same_class_recordings": 58
+    },
+    "1": {
+      "seen_same_class_recordings": 11,
+      "not_seen_same_class_recordings": 31
+    },
+    "2": {
+      "seen_same_class_recordings": 10,
+      "not_seen_same_class_recordings": 26
+    },
+    "3": {
+      "seen_same_class_recordings": 1,
+      "not_seen_same_class_recordings": 14
+    }
+  },
+  "split_row_counts": {
+    "test": 361183,
+    "train": 722721,
+    "val": 120316
+  },
+  "thresholds_true_class_windows": [
+    1,
+    6,
+    32
+  ],
+  "drop_last_train": false
+}

@@ -1,0 +1,13 @@
+# Do not commit datasets, upstream code, local outputs or checkpoints.
+unpacked/
+upstream-oscgrid/
+research/author_models.py
+research/author_train.py
+research/a3_seen_vs_unseen_results/
+.venv/
+__pycache__/
+*.pyc
+*.pt
+*.log
+local_audit.json
+.DS_Store

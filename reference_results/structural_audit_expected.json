@@ -1,0 +1,59 @@
+{
+  "channel_probe": {
+    "chunks_max_five_input_std_below_0_02": 1494,
+    "fraction_chunks_max_five_input_std_below_0_02": 0.996664,
+    "nonoverlapping_32_sample_chunks": 1499,
+    "recording_id": "a3164c73c305b027d2ba382e7840bbd2",
+    "true_class3_rows": 47999,
+    "whole_record_class3_std_by_channel": {
+      "IA": 0.006311,
+      "IC": 0.006277,
+      "UA BB": 0.014356,
+      "UA CL": 0.381395,
+      "UB BB": 0.014905,
+      "UB CL": 0.525679,
+      "UC BB": 0.016738,
+      "UC CL": 57.757404
+    }
+  },
+  "class3": {
+    "dominant_recording_test_windows": 4458,
+    "eligible_rows": 192011,
+    "seen_same_class_recordings": 1,
+    "seen_same_class_windows": 4458,
+    "test_windows": 5716,
+    "top_five_eligible_rows_fraction": 0.857795,
+    "top_five_valid_rows": 164706,
+    "top_five_valid_rows_fraction": 0.855589,
+    "unseen_a066_test_windows": 1037,
+    "unseen_same_class_recordings": 14,
+    "unseen_same_class_windows": 1258,
+    "valid_rows": 192506
+  },
+  "dataset": {
+    "author_commit": "4cbdf81f9a05f646b5e4ee508e273a7b8e92b056",
+    "csv_rows": 1554809,
+    "csv_sha256": "fa3c891163c27880296c240b77c1d23d2ce41be36858ca233f774be9e86f1854",
+    "doi": "10.6084/m9.figshare.28465427.v6",
+    "rows_with_five_inputs": 1206916
+  },
+  "limitations": [
+    "This audit reproduces split structure and channel statistics, not trained-model accuracy.",
+    "Shared source IDs do not quantify any F1 inflation or prove distinct physical events.",
+    "The selected five feature columns are not the entire set of physical measurements.",
+    "CL and BB abbreviations are preserved from dataset channel names; hardware topology is not verified."
+  ],
+  "split": {
+    "author_seed": 443,
+    "frame_size": 32,
+    "n_eligible_blocks": 1672,
+    "n_source_recordings": 451,
+    "source_recordings_shared_train_test": 229,
+    "stride": 10,
+    "test_rows": 361183,
+    "test_rows_from_train_seen_recordings": 232210,
+    "test_rows_from_train_seen_recordings_fraction": 0.642915,
+    "train_rows": 722721,
+    "validation_rows": 120316
+  }
+}
